@@ -2,10 +2,86 @@ h1{
     background: linear-gradient(mediumpurple,palegoldenrod);
     color: black;
     height:100% ;
-    width:25%;
-    border: solid;
+    width: 100%;
+    border: solid black;
+    text-align: center;
 }
+
+
+
 body{
     text-align: center;
-    background-image: url("https://preview.redd.it/i-created-the-true-backrooms-wallpaper-v0-9nfpgy5xg47b1.png?width=2048&format=png&auto=webp&s=2f9389074052f6090160f0916bb131c1a2c7fb46");
+    background: peachpuff;
+    background-size: 100%;
+
+}
+
+p{
+    background: linear-gradient(grey,black);
+    color: white;
+    border: solid black;
+
+}
+img{
+
+}
+h2{
+    background: linear-gradient(navy, dodgerblue);
+    color: black;
+    height:100% ;
+    width: 100%;
+    border: solid black;
+    text-align: center;
+}
+
+h3{
+    background: linear-gradient(darkgreen,yellowgreen);
+    color: black;
+    height:100% ;
+    width: 100%;
+    border: solid black;
+    text-align: center;
+}
+h4{
+    background: linear-gradient(white,wheat);
+    color: black;
+    height:100% ;
+    width: 100%;
+    border: solid black;
+    text-align: center;
+}
+h5{
+    background: linear-gradient(darkred,indianred);
+    color: black;
+    height:100% ;
+    width: 100%;
+    border: solid black;
+    text-align: center;
+}
+h6{
+    background: linear-gradient(yellow,goldenrod);
+    color: black;
+    height:100% ;
+    width: 100%;
+    border: solid black;
+    text-align: center;
+}
+dl{
+    background: linear-gradient(mediumpurple,palegoldenrod);
+    color: black;
+    height:100% ;
+    width: 100%;
+    border: solid black;
+    text-align: center;
+
+}
+ol{
+    background: linear-gradient(grey,black);
+    color: white;
+    border: solid black;
+}
+ul{
+    background: linear-gradient(grey,black);
+    color: white;
+    border: solid black;
 }
