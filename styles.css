@@ -29,7 +29,7 @@ h2{
     background: linear-gradient(navy, dodgerblue);
     color: black;
     height:100% ;
-    width: 100%;
+    width: 50%;
     border: solid black;
     text-align: center;
 }
@@ -73,15 +73,23 @@ dl{
     width: 100%;
     border: solid black;
     text-align: center;
-
 }
 ol{
     background: linear-gradient(grey,black);
     color: white;
     border: solid black;
+    list-style-position: inside;
 }
 ul{
     background: linear-gradient(grey,black);
     color: white;
     border: solid black;
+    list-style-position: inside;
+}
+button{
+
+}
+.inner{
+    margin-top: 25%;
+    border-bottom: 2px dotted;
 }
