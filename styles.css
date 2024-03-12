@@ -7,12 +7,17 @@ h1{
     text-align: center;
 }
 
-
+.newBG {
+    background-color: skyblue;
+}
 
 body{
     text-align: center;
     background: peachpuff;
     background-size: 100%;
+
+}
+.body{
 
 }
 
