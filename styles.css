@@ -7,19 +7,15 @@ h1{
     text-align: center;
 }
 
-.newBG {
-    background-color: skyblue;
-}
 
-body{
+
+.inner{
     text-align: center;
     background: peachpuff;
     background-size: 100%;
 
 }
-.body{
 
-}
 
 p{
     background: linear-gradient(grey,black);
@@ -34,7 +30,7 @@ h2{
     background: linear-gradient(navy, dodgerblue);
     color: black;
     height:100% ;
-    width: 50%;
+    width: 100%;
     border: solid black;
     text-align: center;
 }
@@ -68,30 +64,26 @@ h6{
     color: black;
     height:100% ;
     width: 100%;
-    border: solid black;
+    border: dotted   black;
     text-align: center;
 }
 dl{
-    background: linear-gradient(mediumpurple,palegoldenrod);
+
     color: black;
     height:100% ;
     width: 100%;
-    border: solid black;
+
     text-align: center;
 }
 ol{
-    background: linear-gradient(grey,black);
-    color: white;
-    border: solid black;
     list-style-position: inside;
 }
 ul{
-    background: linear-gradient(grey,black);
-    color: white;
-    border: solid black;
+
     list-style-position: inside;
 }
 button{
+    background: turquoise;
 
 }
 .inner{

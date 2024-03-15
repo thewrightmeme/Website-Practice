@@ -1,0 +1,21 @@
+#navbar{
+    position: fixed;
+    top:0;
+    right:0;
+    left:0;
+    background: sandybrown;
+}
+#navbarChan{
+    list-style-position: inside;
+    margin:0;
+    padding: 0;
+}
+#navbarChan li{
+    display:inline-block;
+    padding: 14px 17px;
+    cursor: pointer;
+}
+
+#navbarChan li:hover{
+    background-color: chocolate;
+}
