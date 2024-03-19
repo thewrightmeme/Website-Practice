@@ -17,16 +17,28 @@ function changeButtonText() {
     butt.value = "value thing";
     butt.innerHTML = "my text"
 }
-//_______________________________________________navbar___________________________________________\\
-function redirect1(){
-    window.location.href = "Website-Practice";
+//--------------------increment----------\\
+let number =0
+function save(){
+    const obj = {number:number}
+    const json = JSON.stringify(obj);
+    localStorage.setItem("Save Number", json)
 }
-function redirect2(){
-    window.location.href= "subpage 2"
+function increment(){
+    number++
 }
-function redirect3(){
-    window.location.href= "subpage 3"
+function display(){
+    let text = localStorage.getItem("Save Number")
+    let obj2 = JSON.parse(text);
+    document.getElementById("p2").innerHTML=obj2.number;
 }
-function redirect4(){
-    window.location.href= "Elijah's subpage"
+//------save and load checks and radio------\\
+function saveOption1() {
+
+    localStorage.setItem("option1", document.getElementById("check1").checked)
+}
+
+function loadOption1() {
+    let tOF =localStorage.getItem("option1");
+    if ()
 }

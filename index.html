@@ -5,19 +5,36 @@
     <link rel="stylesheet" href="nav.css">
     <meta charset="UTF-8">
     <title>Elijah's Website Practice</title>
+    <script src="script.js"> </script>
 </head>
 <body id="idBody">
 
-        <nav  id="navbar">
-            <ul id="navbarChan">
-                <li onclick="redirect1()"> Home</li>
-                <li onclick="redirect2()"> Subpage 2</li>
-                <li onclick="redirect3()"> Subpage 3</li>
-                <li onclick="redirect4()"> Jerry Fan page</li>
-            </ul>
-        </nav>
+<nav  id="navbar">
+    <ul id="navbarChan">
+        <li>
+            <a href="..">
+                Home
+            </a>
+        </li>
+        <li>
+            <a href="../subpage%202">
+                Subpage 2
+            </a>
+        </li>
+        <li >
+            <a href="../subpage%203">
+                Subpage 3
+            </a>
+        </li>
+        <li >
+            <a href="../Elijah's%20subpage">
+                Jerry fan page
+            </a>
+        </li>
+    </ul>
+</nav>
         <div class="inner">
-
+            <div>
             <button id= "button1" onclick="subpage()"> subpage!</button>
             <button id= "button2" onclick="differentPage()"> w3school!</button>
             <button id= "button3" onclick="restyle()"> restyle!</button>
@@ -42,21 +59,36 @@
                 <li> it's made of cubes</li>
             </ol>
             <h5>Descriptive list testing</h5>
-            <b>
-            <dl>
+
+                <dl>
                 <dt>pancakes</dt>
                 <dd>breakfast food made with flour</dd>
-            </dl>
-            </b>
+                </dl>
+                <button id="button9"> save</button>
+                <button id="button10"> load </button>
+                <input type="checkbox" id="check1" name="check1" value="Checkbox1">
+                <label for="check1"> do you like pancakes</label>
+                <input type="checkbox" id="check2" name="check2" value="Checkbox2">
+                <label for="check2"> do you hate pancakes</label>
             <h6>HERES A COOL SONG I LIKE</h6>
             <a href="https://www.youtube.com/watch?v=iF2xUtCcu6Q&list=RDL1abB0q6MF4&index=2&pp=8AUB"> BOUNCIN</a>
+            </div>
+            <input type="radio" id="radio1" name="radio1" value="RadioT1">
+            <label for="radio1"> Coool SONG</label>
+            <input type="radio" id="radio2" name="radio1" value="RadioT2">
+            <label for="radio2"> dumb song it sucks</label>
+            <h2> incrementation test</h2>
+            <button id="button6" onclick="increment()"> increment </button>
+            <button id="button7" onclick="save()"> save </button>
+            <button id="button8" onclick="display()"> display </button>
+            <p id="p2" > 0 </p>
             <h1>THANK U FOR LOOKING AT MY SUPER COOL WEBSITE</h1>
             <img src="images/mlgShrekAndFriends.jpg" alt="epic emoji haha">
 
 
 
 
-            <script src="script.js"> </script>
+
         </div>
 </body>
 </html>
