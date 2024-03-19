@@ -40,5 +40,5 @@ function saveOption1() {
 
 function loadOption1() {
     let tOF =localStorage.getItem("option1");
-    if ()
+    document.getElementById("check1").innerHTML =tOF;
 }
