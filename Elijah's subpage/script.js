@@ -10,3 +10,6 @@ function redirect3(){
 function redirect4(){
     window.location.href= "Elijah's subpage"
 }
+function nerd(){
+    window.location.href="https://www.youtube.com/watch?v=YrgQTmbnmFQ"
+}
