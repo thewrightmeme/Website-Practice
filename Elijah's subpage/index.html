@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="nav.css">
-    <link rel="stylesheet" href="styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <meta charset="UTF-8">
     <title>Super mega jeremiah fan page</title>
@@ -10,7 +8,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </head>
 <body>
-<nav  id="navbar">
+<nav  id="navbar" >
     <ul id="navbarChan">
         <li>
             <a href="..">
@@ -34,7 +32,8 @@
         </li>
     </ul>
 </nav>
-<div id="harryNueces" class="container-xl">
+<div class="d-flex mx-auto flex-column" style="width:fit-content">
+<div id="harryNueces" class="display-1">
     <h1 id="titleOHIO" class="text-primary"> 5 reasons jeremiah so cool</h1>
 </div>
 <div class="text-primary">
@@ -47,10 +46,25 @@
 <div class="text-success">
     <p>Techliondev is too technical for comfort</p>
 </div>
-<button onclick="nerd()"> haha nerd </button>
+<div class="text-secondary">
+    <p>images that represent TechLionDev company (metaphorically):</p>
+</div>
+    <blockquote class=”blockquote”>
+        <p>
+            Its techlion
+        </p>
+        <footer class="blockquote-footer"> jeremiah </footer>
+    </blockquote>
 
-<div class="row col-md-3" >
-    <img src="../images/nah_id_win.jpg" alt="nah id win" class="img-fluid">
+    <button onclick="nerd()"> haha nerd </button>
+</div>
+<div class="row" >
+    <div class="col-sm-1"></div>
+    <img src="../images/nah_id_win.jpg" alt="nah id win" class="img-fluid col-sm-4">
+    <img src="../images/arrow.png" alt="arrow" class="img-fluid col-sm-2">
+    <img src="../images/ded-gojo.jpg" alt="gojover" class="img-fluid col-sm-4">
+    <div class="col-sm-1"></div>
+
 </div>
 </body>
 </html>
